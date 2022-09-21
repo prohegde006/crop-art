@@ -1,0 +1,123 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+span.color{
+    color: #A626FF;
+}
+
+/* Navbar */
+
+.navbar{
+    text-align: left;
+}
+
+.logo-img {
+    width: 7rem;
+}
+
+nav.navbar {
+    background-color: 	#58aaa4;
+}
+
+/* Signup form */
+#sign-up-section{
+    background-color: #7afff6;
+}
+
+.sign-up-form{
+    padding: 5rem 25rem;
+}
+
+.form-item {
+    padding: 1rem 1.5rem;
+}
+
+input {
+    width: 100%;
+}
+
+input.agreement {
+    width: auto;
+}
+
+.center-form {
+    padding: 1.5rem 0.5rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.sign-up-btn{
+    width: 100%;
+}
+
+.form-inputs {
+    padding: 3%;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
+
+.term-links {
+    text-decoration: none;
+}
+
+.term-checkbox {
+    padding: 0.5rem 0rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media (max-width:1050px) {
+    .form-item {
+        width: 100%;
+    }
+
+    .sign-up-form {
+        padding: 5rem 5rem;
+    }
+
+    .term-checkbox {
+        padding: 0.5rem 0.3rem;
+    }
+}
+
+@media (max-width:540px) {
+    .sign-up-form {
+        padding: 1rem;
+    }
+
+    .form-item {
+        padding: 0.5rem 1rem;
+    }
+
+    .term-checkbox {
+        padding: 0.5rem 0.1rem;
+    }
+}
+
+/* Footer */
+.copyright{
+    color: grey;
+}
+.social-icons{
+    padding: 30px 5px 20px;
+}
+
+.contact-container{
+    padding: 6% 15%;
+}
+

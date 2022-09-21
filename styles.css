@@ -1,0 +1,182 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+span.color {
+    color: #A626FF;
+}
+
+/* Navbar */
+
+.navbar {
+    text-align: left;
+}
+
+.logo-img {
+    width: 7rem;
+}
+
+nav.navbar {
+    background-color: #58aaa4;
+}
+
+/* Title section */
+#title {
+    background-color: #7afff6;
+    padding: 10%;
+    text-align: left;
+}
+
+@media (max-width:991.5px) {
+    #title {
+        text-align: center;
+    }
+}
+
+.title-img {
+    width: 100%;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.tagline {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.get-started-btn {
+    margin: 2rem 0rem;
+    width: 50%;
+}
+
+/* features title */
+.features-title {
+    font-size: 1.5rem;
+}
+
+#features .col-lg-4 {
+    padding: 5%;
+}
+
+.icons {
+    color: #58aaa4;
+    padding: 10%;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #7afff6;
+    font-size: 1.5rem;
+}
+
+.carousel-img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.carousel-inner {
+    padding: 16% 15%;
+}
+
+@media (max-device-width:549px) {
+    #testimonials {
+        font-size: 1rem;
+        padding: 15% 0;
+    }
+
+    .carousel-img {
+        width: 70px;
+    }
+
+    .carousel-inner{
+        padding: 10% 11%;
+    }
+}
+
+/* Participate */
+#participate {
+    padding: 10% 5% 5%;
+}
+
+#participate .big-heading {
+    padding: 5%;
+}
+
+.participate-img {
+    width: 90%;
+    border-radius: 14px;
+}
+
+#participate .row .col-lg-4 {
+    padding: 2%;
+}
+
+.contest-name,
+.contest-content {
+    padding: 5% 0;
+}
+
+#final-words {
+    /* background-color: #99E8EB; */
+    background-color: #7afff6;
+}
+
+/* Finl Words section */
+#final-words {
+    padding: 5%;
+}
+
+#final-words h2 {
+    font-size: 400%;
+}
+
+#final-words img {
+    width: 60%;
+}
+
+#final-words h2,
+#final-words h3,
+#final-words p,
+#final-words img {
+    padding: 1.5%;
+}
+
+.sign-up-btn {
+    width: 50%;
+}
+
+@media (max-width:835.5px) {
+    #final-words h2 {
+        font-size: 300%;
+    }
+}
+
+@media (max-width:478.5px) {
+    #final-words h2 {
+        font-size: 150%;
+    }
+}
+
+/* Footer */
+.copyright {
+    color: grey;
+}
+
+.social-icons {
+    padding: 30px 5px 20px;
+}
+
+.contact-container {
+    padding: 6% 15%;
+}
